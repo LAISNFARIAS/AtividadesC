@@ -13,10 +13,10 @@ int main(){
     scanf("%f", &n4);
     nf = (n1+n2+n3+n4)/4;
     if(nf >= 6.0){
-        printf("Aluno aprovado com nota final: %f\n", nf);
+        printf("Aluno aprovado com nota final: %.2f\n", nf);
         }
     else{ 
-        printf("Aluno reprovado com nota final:%f\n", nf);
+        printf("Aluno reprovado com nota final:%.2f\n", nf);
     }
     return 0;
 }
